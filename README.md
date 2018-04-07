@@ -2,7 +2,7 @@
 
 ### This repository contains a sample implementation for new_cast (later to be renamed), a feature proposal to the C++ Standards Committee.
 
-##### This repository is part of the larger [new_cast repository](). You can find out more about the proposal there.
+##### This repository is part of the larger [new_cast repository](https://github.com/stellarpower/new_cast). You can find out more about the proposal there.
 
 ### What is new_cast?
 
