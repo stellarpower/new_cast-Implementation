@@ -502,7 +502,7 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
       {
         static_assert(any::__is_valid_cast<_ValueType>(),
         "Template argument must be a reference or CopyConstructible type");
-        auto __p = any_cast<add_const_t<remove_reference_t<_ValueType>>>(&__any);
+        auto __p = new_any_cast<add_const_t<remove_reference_t<_ValueType>>>(&__any);
         if (__p)
       return *__p;
         __throw_bad_any_cast();
